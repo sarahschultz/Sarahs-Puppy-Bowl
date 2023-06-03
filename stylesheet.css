@@ -1,0 +1,109 @@
+body {
+    color: whitesmoke;
+    text-align: center;
+    background-image: radial-gradient(rgb(123, 252, 211), skyblue);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#background {
+    background-image: url("/pictures/IMG_0098.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#top-bar {
+    display: flex;
+    min-height: 300px;
+}
+
+#roster {
+    background-color: rgba(53, 104, 148, 0.468);
+    color: rgb(0, 242, 255);
+    height: fit-content;
+    width: 50%;
+    padding: .5%;
+    text-align: center;
+}
+
+#display-player {
+    color: rgb(0, 242, 255);
+    background-color: rgba(53, 104, 148, 0.468);
+    text-align: center;
+    height: fit-content;
+    width: 50%;
+    padding: .5%;
+}
+
+#cards {
+    border: 1px solid darkblue;
+    height: 100%;
+    width: 100%;
+    min-height: 200px;
+    padding: .5%;
+    background-color: rgba(53, 104, 148, 0.468);
+    
+}
+
+
+#cards:hover {
+    cursor:pointer;
+}
+
+.player-card {
+    border: 1px solid darkblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: lightblue;
+    padding: .5%;
+    margin: .5%;
+    height: 100px;
+}
+
+.name-breed {
+    background-color: lightblue;
+    color: darkblue;
+    width: 60%;
+    padding: 5px;
+    flex-grow: 1;
+    margin: .5%;
+}
+
+#roster-list{
+    font-size: smaller;
+}
+#roster-list:hover {
+    cursor: pointer;
+}
+
+.image {
+    padding: 5px;
+    flex-grow: 0;
+}
+
+.image img {
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    border: 1px solid black;   
+    margin: auto; 
+}
+
+#pup-selected-img {
+    width: 50%;
+    border: 1px solid black;   
+    margin: auto; 
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+h3 {
+    font-style: oblique;
+    color: rgb(0, 242, 255);
+}
